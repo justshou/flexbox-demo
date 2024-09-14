@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    gap: 16px; /* adds gap inbetween images */
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.grid img {
+    width: 100%;
+    max-width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
